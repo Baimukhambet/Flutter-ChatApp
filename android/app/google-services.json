@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661292894811",
+    "project_id": "flutter-chat-f4e94",
+    "storage_bucket": "flutter-chat-f4e94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661292894811:android:45b04631315d2459ce0d7e",
+        "android_client_info": {
+          "package_name": "com.baimamba.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA08lDgwc36nuFyBWqKdX2P8TTAr_tHdd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
