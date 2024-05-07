@@ -1,9 +1,11 @@
+import 'package:chat_app/services/auth/auth_service.dart';
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatelessWidget {
   MyDrawer({super.key, required this.logoutTapped});
 
   void Function()? logoutTapped;
+  final AuthService _authService = AuthService();
 
   @override
   Widget build(BuildContext context) {
@@ -19,6 +21,14 @@ class MyDrawer extends StatelessWidget {
                     Icon(Icons.message,
                         size: 60, color: Theme.of(context).colorScheme.primary),
                     const SizedBox(height: 60),
+                    Row(
+                      children: [
+                        const Icon(Icons.person_2_rounded),
+                        const SizedBox(width: 25),
+                        Text(_authService.getCurrentUser()!.email!),
+                      ],
+                    ),
+                    const SizedBox(height: 30),
                     const Row(
                       children: [
                         Icon(Icons.home),

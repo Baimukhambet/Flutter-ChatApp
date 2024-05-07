@@ -65,4 +65,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'flutter-chat-f4e94.appspot.com',
     iosBundleId: 'com.baimamba.chatApp',
   );
+
 }
